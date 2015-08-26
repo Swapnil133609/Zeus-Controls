@@ -1,6 +1,6 @@
 Zeus Controls
 =============
-[![Alt text](http://s8.postimg.org/qlsk3nud1/Screenshot_from_2015_07_27_12_30_40.png)
+![Alt text](http://s8.postimg.org/qlsk3nud1/Screenshot_from_2015_07_27_12_30_40.png)
 
 Credits
 ----------------
