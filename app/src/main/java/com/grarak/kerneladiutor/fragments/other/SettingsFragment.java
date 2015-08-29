@@ -138,9 +138,7 @@ public class SettingsFragment extends RecyclerViewFragment {
 
     private void applyonbootInit() {
         DDivider mApplyonBootDividerCard = new DDivider();
-        mApplyonBootDividerCard.setText(getString(R.string.apply_on_boot));
 
-        addView(mApplyonBootDividerCard);
 
         if (!Utils.isTV(getActivity())) {
             SwitchCardView.DSwitchCard mHideApplyOnBootCard = new SwitchCardView.DSwitchCard();
@@ -224,9 +222,6 @@ public class SettingsFragment extends RecyclerViewFragment {
 
     private void debuggingInit() {
         DDivider mDebuggingDividerCard = new DDivider();
-        mDebuggingDividerCard.setText(getString(R.string.debugging));
-
-        addView(mDebuggingDividerCard);
 
         CardViewItem.DCardView mLogcatCard = new CardViewItem.DCardView();
         mLogcatCard.setTitle(getString(R.string.logcat));

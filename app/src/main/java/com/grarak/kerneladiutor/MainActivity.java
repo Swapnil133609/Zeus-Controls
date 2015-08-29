@@ -66,7 +66,6 @@ import com.grarak.kerneladiutor.fragments.kernel.ThermalFragment;
 import com.grarak.kerneladiutor.fragments.kernel.VMFragment;
 import com.grarak.kerneladiutor.fragments.kernel.WakeFragment;
 import com.grarak.kerneladiutor.fragments.other.AboutusFragment;
-import com.grarak.kerneladiutor.fragments.other.FAQFragment;
 import com.grarak.kerneladiutor.fragments.other.SettingsFragment;
 import com.grarak.kerneladiutor.fragments.tools.BackupFragment;
 import com.grarak.kerneladiutor.fragments.tools.BuildpropFragment;

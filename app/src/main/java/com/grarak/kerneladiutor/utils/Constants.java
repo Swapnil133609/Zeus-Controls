@@ -27,7 +27,7 @@ import java.util.List;
  */
 public interface Constants {
 
-    String TAG = "Kernel Adiutor";
+    String TAG = "Zeus Controls";
     String VERSION_NAME = BuildConfig.VERSION_NAME;
     int VERSION_CODE = BuildConfig.VERSION_CODE;
     String PREF_NAME = "prefs";
@@ -35,6 +35,8 @@ public interface Constants {
     List<DAdapter.DView> ITEMS = new ArrayList<>();
     List<DAdapter.DView> VISIBLE_ITEMS = new ArrayList<>();
 
+	// Device Information
+	
     // Kernel Informations
     String PROC_VERSION = "/proc/version";
     String PROC_CPUINFO = "/proc/cpuinfo";

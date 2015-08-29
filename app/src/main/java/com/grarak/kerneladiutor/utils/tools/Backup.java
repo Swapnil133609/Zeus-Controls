@@ -128,9 +128,9 @@ public class Backup {
                 folder = "fota";
                 break;
         }
-        folder = Tools.getInternalStorage() + "/KernelAdiutor/" + folder;
+        folder = Tools.getInternalStorage() + "/ZeusControls/" + folder;
         if (Utils.existFile(folder)) return folder;
-        return "/sdcard/KernelAdiutor/" + folder;
+        return "/sdcard/ZeusControls/" + folder;
     }
 
     public static String getBootPartition() {

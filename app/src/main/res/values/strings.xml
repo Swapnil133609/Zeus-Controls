@@ -82,7 +82,6 @@
     <string name="recovery" translatable="false">Recovery</string>
     <string name="initd">Init.d</string>
     <string name="settings">Settings</string>
-    <string name="faq">FAQ</string>
     <string name="about_us">About Me</string>
 
     <!-- Frequency Table -->
@@ -662,17 +661,7 @@
     <string name="set_password_first">Set a password first</string>
     <string name="show_sections">Show sections</string>
 
-    <!-- FAQ -->
-    <string name="misspelled">Why did you misspell \"Auditor\"?</string>
-    <string name="misspelled_summary">Adiutor is Latin and means helper.</string>
-    <string name="cpu_freq_not_sticking">Why doesn\'t my determined CPU freq stick?</string>
-    <string name="cpu_freq_not_sticking_summary">This has many reasons. Many kernels nowadays have their own hotplugging system which controls the CPU frequency and CyanogenMod has their own CPU Boost implementation which regulate the frequency. I would suggest you to not touching the CPU frequencies and let the kernel do its job.</string>
-    <string name="feature_not_appearing">Why don\'t features x and y show up?</string>
-    <string name="feature_not_appearing_summary">Features depend on the kernel.</string>
-    <string name="feature_function">What does feature x do?</string>
-    <string name="feature_function_summary">If you don\'t know what this control does, then simply don\'t touch it. Please do a proper research before playing with your expensive hardware.</string>
-    <string name="add_new_features">Could you add feature x and y?</string>
-    <string name="add_new_features_summary">That\'s hard to say. I try to add all features, but it\'s hard to make this app universal for all devices. I only have a Samsung Galaxy S4 (I9500) and an HTC Desire 816, so don\'t blame me if features don\'t get merged immediately.</string>
+
 
     <!-- About Me -->
     <string name="license">License</string>
@@ -683,6 +672,8 @@
     <string name="google" translatable="false">Google</string>
     <string name="fab" translatable="false">FloatingActionButton</string>
     <string name="jerzy" translatable="false">Jerzy Chałupski</string>
+	<string name="core_app">Application Core</string>
+	<string name="core_app_summary">This application's core is partially powered by "Kernel Adiutor" The Open Source App. Then Developed And Tweaked by Swapnil Solanki.</string>
 	<string name="dev">Kernel Developer</string>
 	<string name="dev_summary">Swapnil Solanki (Swapnil133609) is the developer of Zeus Kernel Series. Click to visit my official Blog.</string>
     <string name="dashclock" translatable="false">Dashclock</string>
