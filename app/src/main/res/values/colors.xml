@@ -5,6 +5,7 @@
     <color name="color_primary">#009688</color>
     <color name="color_primary_dark">#004D40</color>
     <color name="color_primary_light">#00BFA5</color>
+	<color name="tabsScrollColor">#020202</color>
 
     <color name="statusbar_color">@color/color_primary_dark</color>
     <color name="actionbar_color">@color/color_primary</color>

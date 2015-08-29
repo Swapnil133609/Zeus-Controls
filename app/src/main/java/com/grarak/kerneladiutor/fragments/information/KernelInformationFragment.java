@@ -17,22 +17,18 @@
 package com.grarak.kerneladiutor.fragments.information;
 
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuInflater;
 
 import com.grarak.kerneladiutor.R;
 import com.grarak.kerneladiutor.elements.cards.CardViewItem;
 import com.grarak.kerneladiutor.fragments.RecyclerViewFragment;
 import com.grarak.kerneladiutor.utils.Utils;
 import com.grarak.kerneladiutor.utils.kernel.Info;
-
 /**
  * Created by willi on 20.12.14.
  */
 public class KernelInformationFragment extends RecyclerViewFragment {
 
     private final String UPDATE_SOURCE = "http://Swapnil133609.github.io/";
-	
     @Override
     public boolean showApplyOnBoot() {
         return false;
@@ -41,11 +37,6 @@ public class KernelInformationFragment extends RecyclerViewFragment {
 	/**
      * called when we want to inflate the menu
      */
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        inflater.inflate(R.menu.kernel_information, menu);
-        super.onCreateOptionsMenu(menu, inflater);
-    }
 
     @Override
 	
@@ -57,6 +48,9 @@ public class KernelInformationFragment extends RecyclerViewFragment {
         kernelVersionCard.setTitle(getString(R.string.kernel_version));
         kernelVersionCard.setDescription(Info.getKernelVersion());
 
+		CardViewItem.DCardView deviceNameCard = new CardViewItem.DCardView();
+        deviceNameCard.setTitle(getString(R.string.device_name));
+        deviceNameCard.setDescription(Info.getDeviceName());
 		CardViewItem.DCardView kernelUpdateCard = new CardViewItem.DCardView();
         kernelUpdateCard.setTitle(getString(R.string.update_version));
         kernelUpdateCard.setDescription(getString(R.string.update_version_information));
@@ -76,6 +70,7 @@ public class KernelInformationFragment extends RecyclerViewFragment {
         memCard.setDescription(Info.getMemInfo());
 
         addView(kernelVersionCard);
+		addView(deviceNameCard);
 		addView(kernelUpdateCard);
         addView(cpuCard);
         addView(memCard);
