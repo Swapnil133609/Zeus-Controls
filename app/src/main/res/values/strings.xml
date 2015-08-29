@@ -58,7 +58,7 @@
 
     <!-- Tabs -->
     <string name="downloads">Downloads</string>
-    <string name="kernel_information">Kernel Information</string>
+    <string name="kernel_information">Zeus Information</string>
     <string name="frequency_table">Frequency Table</string>
     <string name="cpu">CPU</string>
     <string name="cpu_voltage">CPU Voltage</string>
@@ -95,7 +95,7 @@
     <string name="restore_timer">Restore Timers</string>
 
     <!-- Kernel Information -->
-    <string name="kernel_version">Kernel Version</string>
+    <string name="kernel_version">Zeus Version</string>
     <string name="cpu_information">CPU Information</string>
     <string name="memory_information">Memory Information</string>
 
