@@ -243,7 +243,6 @@ public class MainActivity extends BaseActivity implements Constants {
      */
     private void setList() {
         ITEMS.clear();
-        ITEMS.add(new DAdapter.MainHeader());
         ITEMS.add(new DAdapter.Header(getString(R.string.information)));
         ITEMS.add(new DAdapter.Item(getString(R.string.kernel_information), new KernelInformationFragment()));
         ITEMS.add(new DAdapter.Item(getString(R.string.frequency_table), new FrequencyTableFragment()));
@@ -289,7 +288,6 @@ public class MainActivity extends BaseActivity implements Constants {
         ITEMS.add(new DAdapter.Item(getString(R.string.initd), new InitdFragment()));
         ITEMS.add(new DAdapter.Header(getString(R.string.other)));
         ITEMS.add(new DAdapter.Item(getString(R.string.settings), new SettingsFragment()));
-        ITEMS.add(new DAdapter.Item(getString(R.string.faq), new FAQFragment()));
         ITEMS.add(new DAdapter.Item(getString(R.string.about_us), new AboutusFragment()));
     }
 

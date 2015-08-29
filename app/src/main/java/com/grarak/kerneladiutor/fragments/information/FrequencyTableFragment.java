@@ -7,6 +7,7 @@
 
 package com.grarak.kerneladiutor.fragments.information;
 
+import android.content.DialogInterface;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
@@ -34,6 +35,9 @@ import com.grarak.kerneladiutor.elements.cards.CardViewItem;
 import com.grarak.kerneladiutor.fragments.RecyclerViewFragment;
 import com.grarak.kerneladiutor.utils.Constants;
 import com.grarak.kerneladiutor.utils.Utils;
+import com.grarak.kerneladiutor.utils.root.RootFile;
+import com.grarak.kerneladiutor.utils.root.RootUtils;
+import com.grarak.kerneladiutor.utils.tools.Recovery;
 import com.grarak.kerneladiutor.utils.kernel.CPU;
 
 import java.util.ArrayList;
@@ -165,52 +169,6 @@ public class FrequencyTableFragment extends RecyclerViewFragment implements Cons
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         inflater.inflate(R.menu.frequency_table_menu, menu);
         super.onCreateOptionsMenu(menu, inflater);
-    }
-
-    /**
-     * called to handle a menu event
-     */
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // what it do maybe
-        switch (item.getItemId()) {
-        /* pressed the load menu button */
-            case R.id.menu_reset:
-                try {
-                    cpuSpyApp.getCpuStateMonitor().setOffsets();
-                } catch (CpuStateMonitor.CpuStateMonitorException e) {
-                    e.printStackTrace();
-                }
-                cpuSpyApp.saveOffsets(getActivity());
-
-                if (cpuSpyAppLITTLE != null) {
-                    try {
-                        cpuSpyAppLITTLE.getCpuStateMonitor().setOffsets();
-                    } catch (CpuStateMonitor.CpuStateMonitorException e) {
-                        e.printStackTrace();
-                    }
-                    cpuSpyAppLITTLE.saveOffsets(getActivity());
-                }
-                break;
-            case R.id.menu_restore:
-                cpuSpyApp.getCpuStateMonitor().removeOffsets();
-                cpuSpyApp.saveOffsets(getActivity());
-                if (cpuSpyAppLITTLE != null) {
-                    cpuSpyAppLITTLE.getCpuStateMonitor().removeOffsets();
-                    cpuSpyAppLITTLE.saveOffsets(getActivity());
-                }
-                break;
-        }
-        updateView();
-
-        // made it
-        return true;
-    }
-
-    private void updateView() {
-        updateView(uiStatesView, cpuSpyApp, frequencyCard, uptimeCard, additionalCard);
-        if (cpuSpyAppLITTLE != null)
-            updateView(uiStatesViewLITTLE, cpuSpyAppLITTLE, frequencyCardLITTLE, uptimeCardLITTLE, additionalCardLITTLE);
     }
 
     /**
