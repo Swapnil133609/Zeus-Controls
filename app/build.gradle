@@ -5,11 +5,11 @@ android {
     buildToolsVersion "23"
 
     defaultConfig {
-        applicationId "com.grarak.kerneladiutor"
+        applicationId "com.swapnil133609.zeuscontrols"
         minSdkVersion 9
         targetSdkVersion 23
         versionCode 110
-        versionName "0.9.8 beta"
+        versionName "1.0"
     }
     buildTypes {
         release {
