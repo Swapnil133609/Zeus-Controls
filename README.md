@@ -5,8 +5,9 @@ Zeus Controls
 Credits
 ----------------
 
-This app is completely based off source from Kernel Adiutor. So Thanks to Willi Ye!
-Base is only used for core functionality! UI & many other changes will be there!
+This app is Partially powered by Kernel Adiutor. So Thanks to Willi Ye! And Some Customizations by me (swapnil133609)
+Base is only used for core functionality! UI & many other changes will be there! More Options have been added.
+And lets not forget the coming OTA Kernel Updater (coming soon)
 
 License
 ----------------
