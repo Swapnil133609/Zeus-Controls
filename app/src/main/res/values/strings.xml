@@ -83,7 +83,7 @@
     <string name="initd">Init.d</string>
     <string name="settings">Settings</string>
     <string name="faq">FAQ</string>
-    <string name="about_us">About us</string>
+    <string name="about_us">About Me</string>
 
     <!-- Frequency Table -->
     <string name="big" translatable="false">Big</string>
@@ -95,7 +95,9 @@
     <string name="restore_timer">Restore Timers</string>
 
     <!-- Kernel Information -->
-    <string name="kernel_version">Zeus Version</string>
+    <string name="kernel_version">Zeus Kernel Version</string>
+	<string name="update_version">Zeus Updater</string>
+	<string name="update_version_information">Update Your Zeus Kernel. Click This Card To Proceed and get the latest version of Zeus Kernel.</string>
     <string name="cpu_information">CPU Information</string>
     <string name="memory_information">Memory Information</string>
 
@@ -672,7 +674,7 @@
     <string name="add_new_features">Could you add feature x and y?</string>
     <string name="add_new_features_summary">That\'s hard to say. I try to add all features, but it\'s hard to make this app universal for all devices. I only have a Samsung Galaxy S4 (I9500) and an HTC Desire 816, so don\'t blame me if features don\'t get merged immediately.</string>
 
-    <!-- About us -->
+    <!-- About Me -->
     <string name="license">License</string>
     <string name="app_license">Zeus Controls is licensed under the Apache License, Version 2.0, and uses following libraries</string>
     <string name="appcompat_v7" translatable="false">v7 Appcompat Library</string>
@@ -681,6 +683,8 @@
     <string name="google" translatable="false">Google</string>
     <string name="fab" translatable="false">FloatingActionButton</string>
     <string name="jerzy" translatable="false">Jerzy Chałupski</string>
+	<string name="dev">Kernel Developer</string>
+	<string name="dev_summary">Swapnil Solanki (Swapnil133609) is the developer of Zeus Kernel Series. Click to visit my official Blog.</string>
     <string name="dashclock" translatable="false">Dashclock</string>
     <string name="nurik" translatable="false">Roman Nurik</string>
     <string name="nineoldandroids" translatable="false">NineOldAndroids</string>
@@ -692,9 +696,6 @@
     <string name="open_source">Open source</string>
     <string name="open_source_summary">This application is open source. Check it out on my Github.</string>
     <string name="feature_request">Feature request</string>
-    <string name="feature_request_summary">Do you want more features? Open a new issue on Github and tell me your idea.</string>
-    <string name="google_plus_summary">Join our community.</string>
-    <string name="translation">Translation</string>
-    <string name="translation_summary">Help me to translate this app!</string>
+	<string name="feature_request_summary">Do you want more features? Tell me on my XDA Thread.</string>
 
 </resources>
