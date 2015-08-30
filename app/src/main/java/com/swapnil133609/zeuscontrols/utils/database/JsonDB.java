@@ -16,7 +16,7 @@
 
 package com.swapnil133609.zeuscontrols.utils.database;
 
-import com.kerneladiutor.library.Tools;
+import com.zeuscontrols.library.Tools;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -56,8 +56,8 @@ import com.swapnil133609.zeuscontrols.fragments.kernel.ThermalFragment;
 import com.swapnil133609.zeuscontrols.fragments.kernel.VMFragment;
 import com.swapnil133609.zeuscontrols.fragments.kernel.WakeFragment;
 import com.swapnil133609.zeuscontrols.utils.kernel.CPU;
-import com.kerneladiutor.library.Tools;
-import com.kerneladiutor.library.root.RootUtils;
+import com.zeuscontrols.library.Tools;
+import com.zeuscontrols.library.root.RootUtils;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
 

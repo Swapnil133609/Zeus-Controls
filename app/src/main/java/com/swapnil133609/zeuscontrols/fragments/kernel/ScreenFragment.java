@@ -39,7 +39,7 @@ import com.swapnil133609.zeuscontrols.utils.Utils;
 import com.swapnil133609.zeuscontrols.utils.WebpageReader;
 import com.swapnil133609.zeuscontrols.utils.json.GammaProfiles;
 import com.swapnil133609.zeuscontrols.utils.kernel.Screen;
-import com.kerneladiutor.library.Tools;
+import com.zeuscontrols.library.Tools;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -50,17 +50,17 @@ import com.swapnil133609.zeuscontrols.utils.Utils;
 import com.swapnil133609.zeuscontrols.utils.WebpageReader;
 import com.swapnil133609.zeuscontrols.utils.json.Plugins;
 import com.swapnil133609.zeuscontrols.utils.root.Control;
-import com.kerneladiutor.library.Item;
-import com.kerneladiutor.library.PluginManager;
-import com.kerneladiutor.library.Tab;
-import com.kerneladiutor.library.items.Divider;
-import com.kerneladiutor.library.items.EditText;
-import com.kerneladiutor.library.items.Information;
-import com.kerneladiutor.library.items.Popup;
-import com.kerneladiutor.library.items.Progress;
-import com.kerneladiutor.library.items.SeekBar;
-import com.kerneladiutor.library.items.Simple;
-import com.kerneladiutor.library.items.Switcher;
+import com.zeuscontrols.library.Item;
+import com.zeuscontrols.library.PluginManager;
+import com.zeuscontrols.library.Tab;
+import com.zeuscontrols.library.items.Divider;
+import com.zeuscontrols.library.items.EditText;
+import com.zeuscontrols.library.items.Information;
+import com.zeuscontrols.library.items.Popup;
+import com.zeuscontrols.library.items.Progress;
+import com.zeuscontrols.library.items.SeekBar;
+import com.zeuscontrols.library.items.Simple;
+import com.zeuscontrols.library.items.Switcher;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -82,10 +82,10 @@ public class PluginsFragment extends ViewPagerFragment {
         public void onReceive(Context context, Intent intent) {
             if (mProgressDialog != null) mProgressDialog.dismiss();
             PluginsFragment.super.mTabs.setVisibility(View.VISIBLE);
-            final Tab tab = intent.getParcelableExtra(com.kerneladiutor.library.action.Intent.TAB);
+            final Tab tab = intent.getParcelableExtra(com.zeuscontrols.library.action.Intent.TAB);
             if (tab == null) return;
 
-            int versionCode = intent.getIntExtra(com.kerneladiutor.library.action.Intent.VERSION_CODE, 1);
+            int versionCode = intent.getIntExtra(com.zeuscontrols.library.action.Intent.VERSION_CODE, 1);
             PluginManager.setVersion(versionCode);
             if (tab.getTitle() != null) {
                 mTabs.add(tab);
@@ -139,7 +139,7 @@ public class PluginsFragment extends ViewPagerFragment {
     private final BroadcastReceiver commandReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
-            String command = intent.getStringExtra(com.kerneladiutor.library.action.Intent.COMMAND);
+            String command = intent.getStringExtra(com.zeuscontrols.library.action.Intent.COMMAND);
             Tab tab = Item.getTabEvent(intent);
             String tag = Item.getTagEvent(intent);
             Control.runCommand(command, tag, Control.CommandType.CUSTOM, tab.getTitle(), context);
@@ -149,8 +149,8 @@ public class PluginsFragment extends ViewPagerFragment {
     private final BroadcastReceiver updateReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
-            Tab tab = intent.getParcelableExtra(com.kerneladiutor.library.action.Intent.TAB);
-            Item item = intent.getParcelableExtra(com.kerneladiutor.library.action.Intent.ITEM);
+            Tab tab = intent.getParcelableExtra(com.zeuscontrols.library.action.Intent.TAB);
+            Item item = intent.getParcelableExtra(com.zeuscontrols.library.action.Intent.ITEM);
 
             for (int i = 0; i < mTabs.size(); i++)
                 if (mTabs.get(i).getPackageName().equals(tab.getPackageName()))
@@ -195,9 +195,9 @@ public class PluginsFragment extends ViewPagerFragment {
                 }).start();
 
                 getActivity().sendBroadcast(i);
-                getActivity().registerReceiver(tabReceiver, new IntentFilter(com.kerneladiutor.library.action.Intent.RECEIVE_DATA));
-                getActivity().registerReceiver(commandReceiver, new IntentFilter(com.kerneladiutor.library.action.Intent.EXECUTE_COMMAND));
-                getActivity().registerReceiver(updateReceiver, new IntentFilter(com.kerneladiutor.library.action.Intent.RECEIVE_UPDATE));
+                getActivity().registerReceiver(tabReceiver, new IntentFilter(com.zeuscontrols.library.action.Intent.RECEIVE_DATA));
+                getActivity().registerReceiver(commandReceiver, new IntentFilter(com.zeuscontrols.library.action.Intent.EXECUTE_COMMAND));
+                getActivity().registerReceiver(updateReceiver, new IntentFilter(com.zeuscontrols.library.action.Intent.RECEIVE_UPDATE));
             } catch (Exception ignored) {
             }
         }
@@ -226,7 +226,7 @@ public class PluginsFragment extends ViewPagerFragment {
     }
 
     private Intent sendIntent() {
-        return new Intent(com.kerneladiutor.library.action.Intent.SEND_DATA);
+        return new Intent(com.zeuscontrols.library.action.Intent.SEND_DATA);
     }
 
     @Override
@@ -522,8 +522,8 @@ public class PluginsFragment extends ViewPagerFragment {
         }
 
         private void startPendingIntent(PendingIntent pendingIntent, Intent intent, String tag, Tab tab) {
-            intent.putExtra(com.kerneladiutor.library.action.Intent.TAG, tag);
-            intent.putExtra(com.kerneladiutor.library.action.Intent.TAB, tab);
+            intent.putExtra(com.zeuscontrols.library.action.Intent.TAG, tag);
+            intent.putExtra(com.zeuscontrols.library.action.Intent.TAB, tab);
             try {
                 pendingIntent.send(getActivity(), 0, intent);
             } catch (PendingIntent.CanceledException e) {

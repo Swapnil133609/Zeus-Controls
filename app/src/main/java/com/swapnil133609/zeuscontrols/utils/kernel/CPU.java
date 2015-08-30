@@ -23,7 +23,7 @@ import com.swapnil133609.zeuscontrols.utils.Constants;
 import com.swapnil133609.zeuscontrols.utils.Utils;
 import com.swapnil133609.zeuscontrols.utils.root.Control;
 import com.swapnil133609.zeuscontrols.utils.root.LinuxUtils;
-import com.kerneladiutor.library.root.RootUtils;
+import com.zeuscontrols.library.root.RootUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;

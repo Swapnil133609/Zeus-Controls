@@ -21,7 +21,7 @@ import com.google.android.apps.dashclock.api.ExtensionData;
 import com.swapnil133609.zeuscontrols.R;
 import com.swapnil133609.zeuscontrols.utils.kernel.CPU;
 import com.swapnil133609.zeuscontrols.utils.kernel.GPU;
-import com.kerneladiutor.library.root.RootUtils;
+import com.zeuscontrols.library.root.RootUtils;
 
 /**
  * Created by willi on 25.03.15.

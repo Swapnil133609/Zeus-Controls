@@ -42,9 +42,9 @@ import com.swapnil133609.zeuscontrols.utils.DownloadTask;
 import com.swapnil133609.zeuscontrols.utils.json.Downloads;
 import com.swapnil133609.zeuscontrols.utils.Utils;
 import com.swapnil133609.zeuscontrols.utils.tools.Recovery;
-import com.kerneladiutor.library.Tools;
-import com.kerneladiutor.library.root.RootFile;
-import com.kerneladiutor.library.root.RootUtils;
+import com.zeuscontrols.library.Tools;
+import com.zeuscontrols.library.root.RootFile;
+import com.zeuscontrols.library.root.RootUtils;
 
 import net.i2p.android.ext.floatingactionbutton.FloatingActionButton;
 

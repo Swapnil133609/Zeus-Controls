@@ -36,8 +36,8 @@ import com.swapnil133609.zeuscontrols.elements.cards.InformationCardView;
 import com.swapnil133609.zeuscontrols.fragments.RecyclerViewFragment;
 import com.swapnil133609.zeuscontrols.utils.Utils;
 import com.swapnil133609.zeuscontrols.utils.tools.Initd;
-import com.kerneladiutor.library.root.RootFile;
-import com.kerneladiutor.library.root.RootUtils;
+import com.zeuscontrols.library.root.RootFile;
+import com.zeuscontrols.library.root.RootUtils;
 import com.nineoldandroids.view.ViewHelper;
 
 import net.i2p.android.ext.floatingactionbutton.AddFloatingActionButton;

@@ -32,7 +32,7 @@ import com.swapnil133609.zeuscontrols.R;
 import com.swapnil133609.zeuscontrols.utils.Utils;
 import com.swapnil133609.zeuscontrols.utils.database.ProfileDB;
 import com.swapnil133609.zeuscontrols.utils.root.Control;
-import com.kerneladiutor.library.root.RootUtils;
+import com.zeuscontrols.library.root.RootUtils;
 
 import java.util.List;
 

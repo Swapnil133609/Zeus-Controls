@@ -37,7 +37,7 @@ import com.swapnil133609.zeuscontrols.elements.cards.CardViewItem;
 import com.swapnil133609.zeuscontrols.fragments.RecyclerViewFragment;
 import com.swapnil133609.zeuscontrols.utils.Utils;
 import com.swapnil133609.zeuscontrols.utils.tools.Backup;
-import com.kerneladiutor.library.root.RootUtils;
+import com.zeuscontrols.library.root.RootUtils;
 
 import java.io.File;
 import java.util.LinkedHashMap;

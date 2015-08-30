@@ -24,7 +24,7 @@ import com.swapnil133609.zeuscontrols.utils.Utils;
 import com.swapnil133609.zeuscontrols.utils.database.CommandDB;
 import com.swapnil133609.zeuscontrols.utils.kernel.CPU;
 import com.swapnil133609.zeuscontrols.utils.kernel.CPUHotplug;
-import com.kerneladiutor.library.root.RootUtils;
+import com.zeuscontrols.library.root.RootUtils;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -19,7 +19,7 @@ package com.swapnil133609.zeuscontrols.utils.json;
 import android.content.Context;
 
 import com.swapnil133609.zeuscontrols.utils.Utils;
-import com.kerneladiutor.library.Tools;
+import com.zeuscontrols.library.Tools;
 
 import org.json.JSONArray;
 import org.json.JSONException;

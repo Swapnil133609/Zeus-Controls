@@ -35,7 +35,7 @@ import com.swapnil133609.zeuscontrols.elements.DAdapter;
 import com.swapnil133609.zeuscontrols.fragments.BaseFragment;
 import com.swapnil133609.zeuscontrols.fragments.ViewPagerFragment;
 import com.swapnil133609.zeuscontrols.utils.Utils;
-import com.kerneladiutor.library.Tools;
+import com.zeuscontrols.library.Tools;
 
 import java.io.File;
 import java.util.ArrayList;

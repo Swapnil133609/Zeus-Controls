@@ -35,8 +35,6 @@ import com.swapnil133609.zeuscontrols.elements.cards.CardViewItem;
 import com.swapnil133609.zeuscontrols.fragments.RecyclerViewFragment;
 import com.swapnil133609.zeuscontrols.utils.Constants;
 import com.swapnil133609.zeuscontrols.utils.Utils;
-import com.swapnil133609.zeuscontrols.utils.root.RootFile;
-import com.swapnil133609.zeuscontrols.utils.root.RootUtils;
 import com.swapnil133609.zeuscontrols.utils.tools.Recovery;
 import com.swapnil133609.zeuscontrols.utils.kernel.CPU;
 
@@ -179,9 +177,6 @@ public class FrequencyTableFragment extends RecyclerViewFragment implements Cons
         // what it do maybe
         switch (item.getItemId()) {
         /* pressed the load menu button */
-            case R.id.menu_refresh:
-                refreshData();
-                break;
             case R.id.menu_reset:
                 try {
                     cpuSpyApp.getCpuStateMonitor().setOffsets();
@@ -189,14 +184,6 @@ public class FrequencyTableFragment extends RecyclerViewFragment implements Cons
                     e.printStackTrace();
                 }
 
-                cpuSpyApp.saveOffsets(getActivity());
-                updateView();
-                break;
-            case R.id.menu_restore:
-                cpuSpyApp.getCpuStateMonitor().removeOffsets();
-                cpuSpyApp.saveOffsets(getActivity());
-                updateView();
-                break;
         }
 
         // made it
@@ -352,7 +339,6 @@ public class FrequencyTableFragment extends RecyclerViewFragment implements Cons
          */
         @Override
         protected void onPostExecute(Void v) {
-            updateView();
             refreshLayout.setRefreshing(false);
         }
     }
