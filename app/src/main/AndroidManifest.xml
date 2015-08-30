@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.grarak.kerneladiutor">
+    package="com.swapnil133609.zeuscontrols">
 
     <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -30,7 +30,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppThemeLight">
         <activity
-            android:name=".MainActivity"
+            android:name="com.swapnil133609.zeuscontrols.MainActivity"
             android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize|navigation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,14 +41,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".TextActivity"
+            android:name="com.swapnil133609.zeuscontrols.TextActivity"
             android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize|navigation"
             android:theme="@style/AppThemeActionBarLight" />
         <activity
-            android:name=".KernelActivity"
+            android:name="com.swapnil133609.zeuscontrols.KernelActivity"
             android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize|navigation" />
         <activity
-            android:name=".FileBrowserActivity"
+            android:name="com.swapnil133609.zeuscontrols.FileBrowserActivity"
             android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize|navigation" />
         <activity
             android:name=".EditTextActivity"
@@ -57,21 +57,21 @@
             android:name=".DownloadPluginsActivity"
             android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize|navigation" />
         <activity
-            android:name=".elements.DAdapter$MainHeader$MainHeaderActivity"
+            android:name="com.swapnil133609.zeuscontrols.elements.DAdapter$MainHeader$MainHeaderActivity"
             android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize|navigation"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
-        <receiver android:name=".services.BootReceiver">
+        <receiver android:name="com.swapnil133609.zeuscontrols.services.BootReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
 
-        <service android:name=".services.BootService" />
-        <service android:name=".services.InitdService" />
+        <service android:name="com.swapnil133609.zeuscontrols.services.BootService" />
+        <service android:name="com.swapnil133609.zeuscontrols.services.InitdService" />
 
         <!-- Profile Widget -->
-        <receiver android:name=".services.ProfileWidget">
+        <receiver android:name="com.swapnil133609.zeuscontrols.services.ProfileWidget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -82,12 +82,12 @@
         </receiver>
 
         <service
-            android:name=".services.ProfileWidget$WidgetService"
+            android:name="com.swapnil133609.zeuscontrols.services.ProfileWidget$WidgetService"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
 
         <!-- DashClock -->
         <service
-            android:name=".services.DashClockService"
+            android:name="com.swapnil133609.zeuscontrols.services.DashClockService"
             android:icon="@drawable/ic_launcher_preview"
             android:permission="com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA">
             <intent-filter>

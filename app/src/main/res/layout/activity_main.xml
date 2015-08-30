@@ -22,12 +22,12 @@
     </LinearLayout>
 
 	
-    <com.grarak.kerneladiutor.elements.SplashView
+    <com.swapnil133609.zeuscontrols.elements.SplashView
         android:id="@+id/splash_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <com.grarak.kerneladiutor.elements.ScrimInsetsFrameLayout
+    <com.swapnil133609.zeuscontrols.elements.ScrimInsetsFrameLayout
         android:id="@+id/scrimInsetsFrameLayout"
         android:layout_width="0dp"
         android:layout_height="match_parent"
@@ -44,6 +44,6 @@
             android:scrollbarStyle="outsideOverlay"
             android:scrollbars="vertical" />
 
-    </com.grarak.kerneladiutor.elements.ScrimInsetsFrameLayout>
+    </com.swapnil133609.zeuscontrols.elements.ScrimInsetsFrameLayout>
 
 </android.support.v4.widget.DrawerLayout>
