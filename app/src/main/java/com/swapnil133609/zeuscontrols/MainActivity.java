@@ -98,7 +98,7 @@ import java.util.List;
 /**
  * Created by willi on 01.12.14.
  */
-public class MainActivity extends AppCompatActivity implements Constants {
+public class MainActivity extends BaseActivity implements Constants {
 
     /**
      * Cache the context of this activity

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.kerneladiutor.library;
+package com.zeuscontrols.library;
 
 import android.os.Environment;
 import android.util.Log;
 
-import com.kerneladiutor.library.root.RootFile;
-import com.kerneladiutor.library.root.RootUtils;
+import com.zeuscontrols.library.root.RootFile;
+import com.zeuscontrols.library.root.RootUtils;
 
 import java.io.BufferedReader;
 import java.io.File;
