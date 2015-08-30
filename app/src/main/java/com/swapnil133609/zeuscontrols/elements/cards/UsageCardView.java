@@ -22,7 +22,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.grarak.cardview.BaseCardView;
+import com.swapnil133609.cardview.BaseCardView;
 import com.swapnil133609.zeuscontrols.R;
 import com.swapnil133609.zeuscontrols.elements.CircleChart;
 import com.swapnil133609.zeuscontrols.elements.DParent;

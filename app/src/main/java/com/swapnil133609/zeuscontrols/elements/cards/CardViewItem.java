@@ -21,8 +21,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.grarak.cardview.BaseCardView;
-import com.grarak.cardview.HeaderCardView;
+import com.swapnil133609.cardview.BaseCardView;
+import com.swapnil133609.cardview.HeaderCardView;
 import com.swapnil133609.zeuscontrols.R;
 import com.swapnil133609.zeuscontrols.elements.DParent;
 

@@ -26,7 +26,7 @@ import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import com.grarak.cardview.BaseCardView;
+import com.swapnil133609.cardview.BaseCardView;
 import com.swapnil133609.zeuscontrols.R;
 import com.swapnil133609.zeuscontrols.elements.DAdapter;
 import com.swapnil133609.zeuscontrols.fragments.BaseFragment;

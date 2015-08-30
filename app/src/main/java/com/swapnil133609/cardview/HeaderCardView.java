@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.grarak.cardview;
+package com.swapnil133609.cardview;
 
 import android.content.Context;
 import android.content.res.Resources;
