@@ -90,7 +90,7 @@ import com.swapnil133609.zeuscontrols.utils.kernel.Thermal;
 import com.swapnil133609.zeuscontrols.utils.kernel.Wake;
 import com.swapnil133609.zeuscontrols.utils.tools.Backup;
 import com.swapnil133609.zeuscontrols.utils.tools.Buildprop;
-import com.kerneladiutor.library.root.RootUtils;
+import com.zeuscontrols.library.root.RootUtils;
 
 import java.util.ArrayList;
 import java.util.List;

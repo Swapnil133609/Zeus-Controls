@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.kerneladiutor.library;
+package com.zeuscontrols.library;
 
 import android.content.Context;
 import android.content.Intent;
@@ -32,9 +32,9 @@ public class PluginManager {
      * @param tab your Tab
      */
     public static void publishTab(Tab tab) {
-        Intent i = new Intent(com.kerneladiutor.library.action.Intent.RECEIVE_DATA);
-        i.putExtra(com.kerneladiutor.library.action.Intent.VERSION_CODE, BuildConfig.VERSION_CODE);
-        i.putExtra(com.kerneladiutor.library.action.Intent.TAB, tab);
+        Intent i = new Intent(com.zeuscontrols.library.action.Intent.RECEIVE_DATA);
+        i.putExtra(com.zeuscontrols.library.action.Intent.VERSION_CODE, BuildConfig.VERSION_CODE);
+        i.putExtra(com.zeuscontrols.library.action.Intent.TAB, tab);
         tab.getContext().sendBroadcast(i);
     }
 
@@ -47,10 +47,10 @@ public class PluginManager {
      * @param context context needed to send broadcast
      */
     public static void executeCommand(String command, Tab tab, String tag, Context context) {
-        Intent i = new Intent(com.kerneladiutor.library.action.Intent.EXECUTE_COMMAND);
-        i.putExtra(com.kerneladiutor.library.action.Intent.COMMAND, command);
-        i.putExtra(com.kerneladiutor.library.action.Intent.TAB, tab);
-        i.putExtra(com.kerneladiutor.library.action.Intent.TAG, tag);
+        Intent i = new Intent(com.zeuscontrols.library.action.Intent.EXECUTE_COMMAND);
+        i.putExtra(com.zeuscontrols.library.action.Intent.COMMAND, command);
+        i.putExtra(com.zeuscontrols.library.action.Intent.TAB, tab);
+        i.putExtra(com.zeuscontrols.library.action.Intent.TAG, tag);
         context.sendBroadcast(i);
     }
 

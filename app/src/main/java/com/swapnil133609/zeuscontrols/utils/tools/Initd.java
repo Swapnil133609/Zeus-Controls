@@ -18,8 +18,8 @@ package com.swapnil133609.zeuscontrols.utils.tools;
 
 import com.swapnil133609.zeuscontrols.utils.Constants;
 import com.swapnil133609.zeuscontrols.utils.Utils;
-import com.kerneladiutor.library.root.RootFile;
-import com.kerneladiutor.library.root.RootUtils;
+import com.zeuscontrols.library.root.RootFile;
+import com.zeuscontrols.library.root.RootUtils;
 
 import java.util.List;
 

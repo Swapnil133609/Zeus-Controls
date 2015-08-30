@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.kerneladiutor.library;
+package com.zeuscontrols.library;
 
 import android.app.PendingIntent;
 import android.content.Context;
@@ -31,14 +31,14 @@ import android.os.Parcelable;
  *
  * <p>
  * There are following Items available:
- * - Simple {@link com.kerneladiutor.library.items.Simple}
- * - Divider {@link com.kerneladiutor.library.items.Divider}
- * - EditText {@link com.kerneladiutor.library.items.EditText}
- * - Information {@link com.kerneladiutor.library.items.Information}
- * - Popup {@link com.kerneladiutor.library.items.Popup}
- * - SeekBar {@link com.kerneladiutor.library.items.SeekBar}
- * - Switcher {@link com.kerneladiutor.library.items.Switcher}
- * - Progress {@link com.kerneladiutor.library.items.Progress}
+ * - Simple {@link com.zeuscontrols.library.items.Simple}
+ * - Divider {@link com.zeuscontrols.library.items.Divider}
+ * - EditText {@link com.zeuscontrols.library.items.EditText}
+ * - Information {@link com.zeuscontrols.library.items.Information}
+ * - Popup {@link com.zeuscontrols.library.items.Popup}
+ * - SeekBar {@link com.zeuscontrols.library.items.SeekBar}
+ * - Switcher {@link com.zeuscontrols.library.items.Switcher}
+ * - Progress {@link com.zeuscontrols.library.items.Progress}
  *
  * <p>
  * For more information please read the comments in each class
@@ -155,7 +155,7 @@ public abstract class Item implements Parcelable {
      * @return Tag
      */
     public static String getTagEvent(Intent intent) {
-        return intent.getStringExtra(com.kerneladiutor.library.action.Intent.TAG);
+        return intent.getStringExtra(com.zeuscontrols.library.action.Intent.TAG);
     }
 
     /**
@@ -165,7 +165,7 @@ public abstract class Item implements Parcelable {
      * @return Tab
      */
     public static Tab getTabEvent(Intent intent) {
-        return intent.getParcelableExtra(com.kerneladiutor.library.action.Intent.TAB);
+        return intent.getParcelableExtra(com.zeuscontrols.library.action.Intent.TAB);
     }
 
     /**
@@ -187,9 +187,9 @@ public abstract class Item implements Parcelable {
      */
     protected Item update() {
         if (mTab != null) {
-            Intent intent = new Intent(com.kerneladiutor.library.action.Intent.RECEIVE_UPDATE);
-            intent.putExtra(com.kerneladiutor.library.action.Intent.TAB, mTab);
-            intent.putExtra(com.kerneladiutor.library.action.Intent.ITEM, this);
+            Intent intent = new Intent(com.zeuscontrols.library.action.Intent.RECEIVE_UPDATE);
+            intent.putExtra(com.zeuscontrols.library.action.Intent.TAB, mTab);
+            intent.putExtra(com.zeuscontrols.library.action.Intent.ITEM, this);
             mContext.sendBroadcast(intent);
         }
         return this;

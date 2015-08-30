@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.kerneladiutor.library.items;
+package com.zeuscontrols.library.items;
 
 import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.Parcel;
 
-import com.kerneladiutor.library.Item;
+import com.zeuscontrols.library.Item;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,8 +34,8 @@ import java.util.List;
  */
 public class SeekBar extends Item {
 
-    public static final String ITEM = "com.kerneladiutor.library.items.ITEM";
-    public static final String POSITION = "com.kerneladiutor.library.items.POSITION";
+    public static final String ITEM = "com.zeuscontrols.library.items.ITEM";
+    public static final String POSITION = "com.zeuscontrols.library.items.POSITION";
 
     private final List<String> mItems;
     private String mUnit;

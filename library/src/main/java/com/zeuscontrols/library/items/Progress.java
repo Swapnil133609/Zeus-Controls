@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.kerneladiutor.library.items;
+package com.zeuscontrols.library.items;
 
 import android.os.Parcel;
 
-import com.kerneladiutor.library.Item;
+import com.zeuscontrols.library.Item;
 
 /**
  * Created by willi on 13.08.15.

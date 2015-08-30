@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.kerneladiutor.library.items;
+package com.zeuscontrols.library.items;
 
 import android.content.Intent;
 import android.os.Parcel;
 
-import com.kerneladiutor.library.Item;
+import com.zeuscontrols.library.Item;
 
 /**
  * Created by willi on 12.08.15.
@@ -31,7 +31,7 @@ import com.kerneladiutor.library.Item;
  */
 public class EditText extends Item {
 
-    public static final String VALUE = "com.kerneladiutor.library.items.VALUE";
+    public static final String VALUE = "com.zeuscontrols.library.items.VALUE";
 
     private String mTitle;
     private String mValue;

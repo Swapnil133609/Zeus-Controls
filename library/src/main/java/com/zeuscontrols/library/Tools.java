@@ -41,7 +41,7 @@ public class Tools {
     /**
      * Debugging TAG
      */
-    public final static String TAG = "KernelAdiutorPlugin";
+    public final static String TAG = "zeuscontrolsPlugin";
 
     /**
      * Get path of external storage

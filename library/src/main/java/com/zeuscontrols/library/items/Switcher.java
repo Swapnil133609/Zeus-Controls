@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.kerneladiutor.library.items;
+package com.zeuscontrols.library.items;
 
 import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.Parcel;
 
-import com.kerneladiutor.library.Item;
+import com.zeuscontrols.library.Item;
 
 /**
  * Created by willi on 12.08.15.
@@ -31,7 +31,7 @@ import com.kerneladiutor.library.Item;
  */
 public class Switcher extends Item {
 
-    public static final String CHECKED = "com.kerneladiutor.library.items.CHECKED";
+    public static final String CHECKED = "com.zeuscontrols.library.items.CHECKED";
 
     private String mTitle;
     private String mDescription;

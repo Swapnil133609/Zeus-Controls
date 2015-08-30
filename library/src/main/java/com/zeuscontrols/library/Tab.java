@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package com.kerneladiutor.library;
+package com.zeuscontrols.library;
 
 import android.app.PendingIntent;
 import android.content.Context;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.kerneladiutor.library.items.Divider;
-import com.kerneladiutor.library.items.EditText;
-import com.kerneladiutor.library.items.Information;
-import com.kerneladiutor.library.items.Popup;
-import com.kerneladiutor.library.items.Progress;
-import com.kerneladiutor.library.items.SeekBar;
-import com.kerneladiutor.library.items.Simple;
-import com.kerneladiutor.library.items.Switcher;
+import com.zeuscontrols.library.items.Divider;
+import com.zeuscontrols.library.items.EditText;
+import com.zeuscontrols.library.items.Information;
+import com.zeuscontrols.library.items.Popup;
+import com.zeuscontrols.library.items.Progress;
+import com.zeuscontrols.library.items.SeekBar;
+import com.zeuscontrols.library.items.Simple;
+import com.zeuscontrols.library.items.Switcher;
 
 import java.util.ArrayList;
 import java.util.List;

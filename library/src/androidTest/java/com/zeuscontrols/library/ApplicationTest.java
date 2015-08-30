@@ -1,4 +1,4 @@
-package com.kerneladiutor.library;
+package com.zeuscontrols.library;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

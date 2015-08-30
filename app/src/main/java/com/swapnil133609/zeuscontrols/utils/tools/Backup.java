@@ -21,8 +21,8 @@ import android.util.Log;
 
 import com.swapnil133609.zeuscontrols.utils.Constants;
 import com.swapnil133609.zeuscontrols.utils.Utils;
-import com.kerneladiutor.library.Tools;
-import com.kerneladiutor.library.root.RootUtils;
+import com.zeuscontrols.library.Tools;
+import com.zeuscontrols.library.root.RootUtils;
 
 import java.io.File;
 
