@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.grarak.kerneladiutor.elements.cards;
+package com.swapnil133609.zeuscontrols.elements.cards;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -23,10 +23,10 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.grarak.cardview.BaseCardView;
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.elements.CircleChart;
-import com.grarak.kerneladiutor.elements.DParent;
-import com.grarak.kerneladiutor.fragments.BaseFragment;
+import com.swapnil133609.zeuscontrols.R;
+import com.swapnil133609.zeuscontrols.elements.CircleChart;
+import com.swapnil133609.zeuscontrols.elements.DParent;
+import com.swapnil133609.zeuscontrols.fragments.BaseFragment;
 
 /**
  * Created by willi on 05.02.15.

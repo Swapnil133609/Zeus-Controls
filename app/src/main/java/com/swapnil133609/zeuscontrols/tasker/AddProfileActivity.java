@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.grarak.kerneladiutor.tasker;
+package com.swapnil133609.zeuscontrols.tasker;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,9 +23,9 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-import com.grarak.kerneladiutor.BaseActivity;
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.fragments.tools.ProfileFragment;
+import com.swapnil133609.zeuscontrols.BaseActivity;
+import com.swapnil133609.zeuscontrols.R;
+import com.swapnil133609.zeuscontrols.fragments.tools.ProfileFragment;
 
 import java.util.List;
 

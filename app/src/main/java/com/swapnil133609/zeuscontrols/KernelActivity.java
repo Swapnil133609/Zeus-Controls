@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.grarak.kerneladiutor;
+package com.swapnil133609.zeuscontrols;
 
 import android.os.Bundle;
 import android.support.v4.view.ViewCompat;
@@ -24,9 +24,9 @@ import android.text.Html;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.grarak.kerneladiutor.fragments.tools.download.ParentFragment;
-import com.grarak.kerneladiutor.utils.json.Downloads;
-import com.grarak.kerneladiutor.utils.Utils;
+import com.swapnil133609.zeuscontrols.fragments.tools.download.ParentFragment;
+import com.swapnil133609.zeuscontrols.utils.json.Downloads;
+import com.swapnil133609.zeuscontrols.utils.Utils;
 import com.nineoldandroids.view.ViewHelper;
 
 /**

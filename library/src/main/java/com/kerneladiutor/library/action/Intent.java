@@ -21,15 +21,15 @@ package com.kerneladiutor.library.action;
  */
 public class Intent {
 
-    public final static String VERSION_CODE = "com.grarak.kerneladiutor.action.VERSION_CODE";
-    public final static String SEND_DATA = "com.grarak.kerneladiutor.action.SEND_DATA";
-    public final static String RECEIVE_DATA = "com.grarak.kerneladiutor.action.RECEIVE_DATA";
-    public final static String EXECUTE_COMMAND = "com.grarak.kerneladiutor.action.EXECUTE_COMMAND";
-    public final static String RECEIVE_UPDATE = "com.grarak.kerneladiutor.action.RECEIVE_UPDATE";
+    public final static String VERSION_CODE = "com.swapnil133609.zeuscontrols.action.VERSION_CODE";
+    public final static String SEND_DATA = "com.swapnil133609.zeuscontrols.action.SEND_DATA";
+    public final static String RECEIVE_DATA = "com.swapnil133609.zeuscontrols.action.RECEIVE_DATA";
+    public final static String EXECUTE_COMMAND = "com.swapnil133609.zeuscontrols.action.EXECUTE_COMMAND";
+    public final static String RECEIVE_UPDATE = "com.swapnil133609.zeuscontrols.action.RECEIVE_UPDATE";
 
-    public final static String TAB = "com.grarak.kerneladiutor.action.TAB";
-    public final static String COMMAND = "com.grarak.kerneladiutor.action.COMMAND";
-    public final static String TAG = "com.grarak.kerneladiutor.action.TAG";
-    public final static String ITEM = "com.grarak.kerneladiutor.action.ITEM";
+    public final static String TAB = "com.swapnil133609.zeuscontrols.action.TAB";
+    public final static String COMMAND = "com.swapnil133609.zeuscontrols.action.COMMAND";
+    public final static String TAG = "com.swapnil133609.zeuscontrols.action.TAG";
+    public final static String ITEM = "com.swapnil133609.zeuscontrols.action.ITEM";
 
 }

@@ -1,4 +1,4 @@
-package com.grarak.kerneladiutor;
+package com.swapnil133609.zeuscontrols;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

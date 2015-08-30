@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.grarak.kerneladiutor.elements.cards.download;
+package com.swapnil133609.zeuscontrols.elements.cards.download;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -33,15 +33,15 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.grarak.cardview.BaseCardView;
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.elements.CircleChart;
-import com.grarak.kerneladiutor.elements.DAdapter;
-import com.grarak.kerneladiutor.fragments.BaseFragment;
-import com.grarak.kerneladiutor.utils.Constants;
-import com.grarak.kerneladiutor.utils.DownloadTask;
-import com.grarak.kerneladiutor.utils.json.Downloads;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.tools.Recovery;
+import com.swapnil133609.zeuscontrols.R;
+import com.swapnil133609.zeuscontrols.elements.CircleChart;
+import com.swapnil133609.zeuscontrols.elements.DAdapter;
+import com.swapnil133609.zeuscontrols.fragments.BaseFragment;
+import com.swapnil133609.zeuscontrols.utils.Constants;
+import com.swapnil133609.zeuscontrols.utils.DownloadTask;
+import com.swapnil133609.zeuscontrols.utils.json.Downloads;
+import com.swapnil133609.zeuscontrols.utils.Utils;
+import com.swapnil133609.zeuscontrols.utils.tools.Recovery;
 import com.kerneladiutor.library.Tools;
 import com.kerneladiutor.library.root.RootFile;
 import com.kerneladiutor.library.root.RootUtils;

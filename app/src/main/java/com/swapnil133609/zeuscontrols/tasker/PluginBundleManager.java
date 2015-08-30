@@ -10,12 +10,12 @@
  * See the License for the specific language governing permissions and limitations under the License.
  */
 
-package com.grarak.kerneladiutor.tasker;
+package com.swapnil133609.zeuscontrols.tasker;
 
 import android.os.Bundle;
 import android.text.TextUtils;
 
-import com.grarak.kerneladiutor.utils.Constants;
+import com.swapnil133609.zeuscontrols.utils.Constants;
 
 /**
  * Class for managing the {@link AddProfileActivity#EXTRA_BUNDLE} for this plug-in.
@@ -26,7 +26,7 @@ public final class PluginBundleManager {
      * <p/>
      * String message to display in a Toast message.
      */
-    public static final String BUNDLE_EXTRA_STRING_MESSAGE = "com.grarak.kerneladiutor.tasker.extra.STRING_MESSAGE"; //$NON-NLS-1$
+    public static final String BUNDLE_EXTRA_STRING_MESSAGE = "com.swapnil133609.zeuscontrols.tasker.extra.STRING_MESSAGE"; //$NON-NLS-1$
 
     /**
      * Type: {@code int}.
@@ -39,7 +39,7 @@ public final class PluginBundleManager {
      * having the version, the plug-in can better detect when such bugs occur.
      */
     public static final String BUNDLE_EXTRA_INT_VERSION_CODE =
-            "com.grarak.kerneladiutor.tasker.extra.INT_VERSION_CODE"; //$NON-NLS-1$
+            "com.swapnil133609.zeuscontrols.tasker.extra.INT_VERSION_CODE"; //$NON-NLS-1$
 
     /**
      * Method to verify the content of the bundle are correct.

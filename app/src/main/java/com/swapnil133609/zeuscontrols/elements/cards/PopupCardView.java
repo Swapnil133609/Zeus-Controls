@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.grarak.kerneladiutor.elements.cards;
+package com.swapnil133609.zeuscontrols.elements.cards;
 
 import android.content.Context;
 import android.support.v7.widget.PopupMenu;
@@ -27,8 +27,8 @@ import android.widget.TextView;
 
 import com.grarak.cardview.BaseCardView;
 import com.grarak.cardview.HeaderCardView;
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.elements.DParent;
+import com.swapnil133609.zeuscontrols.R;
+import com.swapnil133609.zeuscontrols.elements.DParent;
 
 import java.util.List;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.grarak.kerneladiutor;
+package com.swapnil133609.zeuscontrols;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -25,7 +25,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.grarak.kerneladiutor.utils.Utils;
+import com.swapnil133609.zeuscontrols.utils.Utils;
 
 /**
  * Created by willi on 09.07.15.

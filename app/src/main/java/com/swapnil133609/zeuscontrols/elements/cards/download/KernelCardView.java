@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.grarak.kerneladiutor.elements.cards.download;
+package com.swapnil133609.zeuscontrols.elements.cards.download;
 
 import android.app.Activity;
 import android.content.Context;
@@ -32,12 +32,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.grarak.cardview.BaseCardView;
-import com.grarak.kerneladiutor.KernelActivity;
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.elements.DAdapter;
-import com.grarak.kerneladiutor.fragments.BaseFragment;
-import com.grarak.kerneladiutor.utils.json.Downloads;
-import com.grarak.kerneladiutor.utils.Utils;
+import com.swapnil133609.zeuscontrols.KernelActivity;
+import com.swapnil133609.zeuscontrols.R;
+import com.swapnil133609.zeuscontrols.elements.DAdapter;
+import com.swapnil133609.zeuscontrols.fragments.BaseFragment;
+import com.swapnil133609.zeuscontrols.utils.json.Downloads;
+import com.swapnil133609.zeuscontrols.utils.Utils;
 
 /**
  * Created by willi on 20.06.15.

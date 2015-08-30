@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.grarak.kerneladiutor;
+package com.swapnil133609.zeuscontrols;
 
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -24,10 +24,10 @@ import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.view.View;
 
-import com.grarak.kerneladiutor.elements.cards.CardViewItem;
-import com.grarak.kerneladiutor.fragments.RecyclerViewFragment;
-import com.grarak.kerneladiutor.utils.Utils;
-import com.grarak.kerneladiutor.utils.json.Plugins;
+import com.swapnil133609.zeuscontrols.elements.cards.CardViewItem;
+import com.swapnil133609.zeuscontrols.fragments.RecyclerViewFragment;
+import com.swapnil133609.zeuscontrols.utils.Utils;
+import com.swapnil133609.zeuscontrols.utils.json.Plugins;
 
 /**
  * Created by willi on 15.08.15.

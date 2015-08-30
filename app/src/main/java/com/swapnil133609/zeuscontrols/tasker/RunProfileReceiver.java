@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.grarak.kerneladiutor.tasker;
+package com.swapnil133609.zeuscontrols.tasker;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -24,9 +24,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.grarak.kerneladiutor.R;
-import com.grarak.kerneladiutor.utils.Constants;
-import com.grarak.kerneladiutor.utils.Utils;
+import com.swapnil133609.zeuscontrols.R;
+import com.swapnil133609.zeuscontrols.utils.Constants;
+import com.swapnil133609.zeuscontrols.utils.Utils;
 import com.kerneladiutor.library.root.RootUtils;
 
 /**
